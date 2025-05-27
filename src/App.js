@@ -15,6 +15,8 @@ function App() {
       alignItems: 'center',
       minHeight: '100vh'
     }}>
+      <h1>Beans Image Generator</h1>
+
       {!loading && <ImageDropZone setImageVar={setImage}></ImageDropZone>}
       {appImage.length > 0 && <GenerateButton appImage={appImage} loadingSetter={setLoading}/>}
     </div>

@@ -54,3 +54,8 @@
   justify-content: center;
   font-size: 12px;
 }
+
+h1 {
+  font-size: 2rem;
+  color: #acb4c5;
+}

@@ -21,6 +21,7 @@ function App() {
         Official CA: <br />
         Offical Twitter: <a href="https://x.com/i/communities/1927305352602640601" target="_blank" rel="noopener noreferrer">https://x.com/i/communities/1927305352602640601</a> <br />
       </h3>
+      <p>Refresh if there are any issues.</p>
 
       {!loading && <ImageDropZone setImageVar={setImage}></ImageDropZone>}
       {appImage.length > 0 && <GenerateButton appImage={appImage} loadingSetter={setLoading}/>}

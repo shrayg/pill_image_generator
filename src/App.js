@@ -15,9 +15,9 @@ function App() {
       alignItems: 'center',
       minHeight: '100vh'
     }}>
-      <h1>Beans Image Generator</h1>
+      <h1>Mighty Memes Image Generator</h1>
       <h3>
-        Upload any image and press generate and get your pill <br />
+        Upload any image and press generate and get your Meme Bean <br />
         Official CA: <br />
         Offical Twitter: <a href="https://x.com/i/communities/1927305352602640601" target="_blank" rel="noopener noreferrer">https://x.com/i/communities/1927305352602640601</a> <br />
       </h3>

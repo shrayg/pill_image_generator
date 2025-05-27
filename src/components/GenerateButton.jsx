@@ -98,25 +98,38 @@ const GenerateButton = ({ appImage, loadingSetter}) => {
       )}
 
       {generatedImage && (
-        <div style={{ marginTop: "20px", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <div
+          style={{
+            marginTop: 20,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",   // horizontal centering
+            textAlign: "center",
+          }}
+        >
           <img
             src={generatedImage}
             alt="Generated Capsule"
-            style={{ maxHeight: "40%", marginTop: "25px", borderRadius: "8px" }}
+            style={{
+              width: 250,          // make it 250px wide
+              height: "auto",      // keep aspect ratio
+              borderRadius: 8,
+              marginBottom: 12,    // space before the button
+            }}
           />
 
-          {/* ← Download link */}
-          <div style={{ marginTop: "12px" }}>
-            <a
-              href={generatedImage}
-              download="pill-capsule.png"
-              style={{ textDecoration: "none" }}
-            >
-              <button>Download Capsule</button>
-            </a>
-          </div>
+          <a href={generatedImage} download="pill-capsule.png">
+            <button>
+              style={{
+                padding: "10px 20px",
+                marginBottom: "20px",
+              }}
+              Download Capsule
+              </button>
+          </a>
         </div>
       )}
+
     </div>
   );
 

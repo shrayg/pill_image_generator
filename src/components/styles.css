@@ -157,7 +157,7 @@
 /* Generate Button Styles */
 button {
   /* Size and spacing */
-  padding-top: 100px;
+  margin-top: 25px;
   padding: 12px 24px;
   font-size: 16px;
   font-weight: 600;

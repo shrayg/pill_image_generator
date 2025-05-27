@@ -115,5 +115,5 @@ const GenerateButton = ({ appImage, loadingSetter}) => {
     </>
   );
 };
-
+//d
 export default GenerateButton;

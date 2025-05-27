@@ -13,7 +13,7 @@ body {
 html, body, #root {
   height: 100%;        /* ensure it fills the viewport */
   margin: 0;           /* remove default body margin */
-  background-color: #000; /* black background */
+  background-color: #282c34; /* black background */
 }
 
 

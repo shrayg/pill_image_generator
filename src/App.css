@@ -75,6 +75,6 @@ html, body, #root {
   height: 100%;
   /* black base + pill-image on top, centered and full viewport */
   background: 
-    #000 url('/bg.png') no-repeat center center fixed;
+    #000 url('/public/bg.png') no-repeat center center fixed;
   background-size: cover;
 }

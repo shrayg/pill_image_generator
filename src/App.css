@@ -76,7 +76,7 @@ html, body, #root {
 
   /* black base + pill-image on top, centered and full viewport */
   background: 
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),
     #1a1d22 url('/public/bg.png') no-repeat center center fixed;
   background-size: 50%;
 }

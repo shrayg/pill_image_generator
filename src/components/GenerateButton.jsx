@@ -90,35 +90,35 @@ const GenerateButton = ({ appImage, loadingSetter}) => {
   }
 
   return (
-  <>
-    {!done && (
-      <button onClick={getImage} disabled={isLoading}>
-        {isLoading ? "Generating..." : "Generate"}
-      </button>
-    )}
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+      {!done && (
+        <button onClick={getImage} disabled={isLoading}>
+          {isLoading ? "Generating..." : "Generate"}
+        </button>
+      )}
 
-    {generatedImage && (
-      <div style={{ marginTop: "20px", textAlign: "center" }}>
-        <img
-          src={generatedImage}
-          alt="Generated Capsule"
-          style={{ maxHeight: "60%", marginTop: "25px", borderRadius: "8px" }}
-        />
+      {generatedImage && (
+        <div style={{ marginTop: "20px", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <img
+            src={generatedImage}
+            alt="Generated Capsule"
+            style={{ maxHeight: "40%", marginTop: "25px", borderRadius: "8px" }}
+          />
 
-        {/* ← Download link */}
-        <div style={{ marginTop: "12px" }}>
-          <a
-            href={generatedImage}
-            download="pill-capsule.png"
-            style={{ textDecoration: "none" }}
-          >
-            <button>Download Capsule</button>
-          </a>
+          {/* ← Download link */}
+          <div style={{ marginTop: "12px" }}>
+            <a
+              href={generatedImage}
+              download="pill-capsule.png"
+              style={{ textDecoration: "none" }}
+            >
+              <button>Download Capsule</button>
+            </a>
+          </div>
         </div>
-      </div>
-    )}
-  </>
-);
+      )}
+    </div>
+  );
 
 };
 

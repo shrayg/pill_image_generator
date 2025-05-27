@@ -99,7 +99,7 @@ const GenerateButton = ({ appImage, loadingSetter}) => {
           <img
             src={generatedImage}
             alt="Generated Capsule"
-            style={{ maxWidth: "100%", height: "auto", borderRadius: "8px" }}
+            style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }}
           />
         </div>
       )}

@@ -59,7 +59,7 @@ h1 {
   font-size: 3rem;
   color: #cad3e7;
   padding-bottom: 25px;
-  margin-bottom: 1px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -78,5 +78,5 @@ html, body, #root {
   background: 
     linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),
     #1a1d22 url('/public/bg.png') no-repeat center center fixed;
-  background-size: 50%;
+  background-size: 60%;
 }

@@ -58,5 +58,14 @@
 h1 {
   font-size: 2rem;
   color: #acb4c5;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
+  margin-bottom: 1px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #acb4c5;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }

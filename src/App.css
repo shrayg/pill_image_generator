@@ -72,9 +72,10 @@ h3 {
 
 html, body, #root {
   margin: 0;
-  height: 10%;
+  height: 50%;
+
   /* black base + pill-image on top, centered and full viewport */
   background: 
     #000 url('/public/bg.png') no-repeat center center fixed;
-  background-size: cover;
+  background-size: 50% 50%;
 }

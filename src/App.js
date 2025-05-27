@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import ImageDropZone from './components/ImageDropZone';
+import GenerateButton from './components/GenerateButton'
+import { useState } from 'react';
 
 function App() {
+  const [appImage, setImage] = useState([]);
+  const [loading, setLoading] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ 
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      minHeight: '100vh'
+    }}>
+      {!loading && <ImageDropZone setImageVar={setImage}></ImageDropZone>}
+      {appImage.length > 0 && <GenerateButton appImage={appImage} loadingSetter={setLoading}/>}
     </div>
   );
 }

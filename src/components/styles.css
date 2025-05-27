@@ -5,13 +5,13 @@
 }
 
 .drop-zone {
-  border: 2px dashed #d1d5db;
+  border: 2px dashed #59595a;
   border-radius: 12px;
   padding: 40px 20px;
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: #f9fafb;
+  background-color: #000000;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -20,12 +20,12 @@
 
 .drop-zone:hover {
   border-color: #3b82f6;
-  background-color: #eff6ff;
+  background-color: #000000;
 }
 
 .drop-zone.drag-over {
-  border-color: #3b82f6;
-  background-color: #dbeafe;
+  border-color: #6c81a3;
+  background-color: #000000;
   transform: scale(1.02);
 }
 
@@ -41,13 +41,13 @@
 .drop-text {
   font-size: 18px;
   font-weight: 600;
-  color: #374151;
+  color: #969dac;
   margin: 0 0 8px 0;
 }
 
 .file-types {
   font-size: 14px;
-  color: #6b7280;
+  color: #969dac;
   margin: 0;
 }
 

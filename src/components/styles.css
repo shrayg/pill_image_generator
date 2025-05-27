@@ -11,7 +11,7 @@
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: #000000;
+  background-color: #353a44;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -20,12 +20,12 @@
 
 .drop-zone:hover {
   border-color: #3b82f6;
-  background-color: #000000;
+  background-color: #353a44;
 }
 
 .drop-zone.drag-over {
   border-color: #6c81a3;
-  background-color: #000000;
+  background-color: #353a44;
   transform: scale(1.02);
 }
 

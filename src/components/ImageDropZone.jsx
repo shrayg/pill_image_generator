@@ -141,6 +141,15 @@ const ImageDropZone = ({ setImageVar}) => {
           style={{ display: 'none' }}
         />
       </div>
+      {/* Render uploaded image previews */}
+      <div className="images-preview">
+        {images.map((image) => (
+          <div key={image.id} className="image-preview">
+            <img src={image.previewUrl} alt={image.name} className="preview-img" />
+            <button className="remove-btn" onClick={() => removeImage(image.id)}>x</button>
+          </div>
+        ))}
+      </div>
 
     </div>
   );

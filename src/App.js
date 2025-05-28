@@ -15,9 +15,9 @@ function App() {
       alignItems: 'center',
       minHeight: '100vh'
     }}>
-      <h1>Mighty Beans Image Generator</h1>
+      <h1>Mighty Beanz Image Generator</h1>
       <h3>
-        Upload any image and press generate and get your Meme Beans <br />
+        Upload any image and press generate and get your Meme Beanz <br />
         Official CA: S4kYvBGEP2AcpC2Nw4BjwhK9oXq7iXrHupwkgmQU7f5<br />
         Offical Twitter: <a href="https://x.com/i/communities/1927305352602640601" target="_blank" rel="noopener noreferrer">https://x.com/i/communities/1927305352602640601</a> <br />
       </h3>
